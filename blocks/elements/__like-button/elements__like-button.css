@@ -1,0 +1,21 @@
+.elements__like-button {
+ 
+  background-color: #fff;
+  border: none;
+  display: block;
+  font-size: 0;
+}
+
+.elements__like-button:hover {
+  opacity: 0.5;
+}
+
+.elements__like-button:active {
+  opacity: 1;
+  
+}
+
+.elements__like-button:active .elements__like-icon-inner {
+  fill: #000;
+  opacity: 1;
+}
