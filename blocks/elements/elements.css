@@ -1,5 +1,4 @@
 .elements {
-  
   max-width: 880px;
   box-sizing: border-box;
   padding: 48px 0 0;
@@ -9,5 +8,10 @@
 @media screen and (max-width: 767px) {
   .elements {
     padding: 36px 0 48px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .elements {
+    padding-bottom: 0;
   }
 }
