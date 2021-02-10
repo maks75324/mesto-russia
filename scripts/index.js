@@ -1,4 +1,5 @@
 let popup = document.querySelector('.popup');
+let formElement = document.querySelector('.popup__form');
 let editButton = document.querySelector('.profile__edit-button');
 let closeButton = document.querySelector('.popup__close-button');
 let nameInput = formElement.querySelector('.popup__input_type_name');
@@ -11,7 +12,7 @@ popup.classList.remove('popup_opened');
 }
 editButton.addEventListener('click', openPopup);
 closeButton.addEventListener('click', closePopup);
-let formElement = document.querySelector('.popup__form');
+
 function handleFormSubmit (evt) {
     evt.preventDefault();
 
